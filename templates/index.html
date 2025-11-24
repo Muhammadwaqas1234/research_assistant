@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agentic AI – Research Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script defer src="/static/script.js"></script>
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">Agentic AI</h2>
+
+        <button class="new-chat-btn">＋ New Chat</button>
+
+        <div class="sidebar-section-title">Recent Chats</div>
+        <div class="recent-chats">
+            <p>No recent chats</p>
+        </div>
+
+        <footer class="sidebar-footer">
+            <p>Research Assistant v1.0</p>
+        </footer>
+    </aside>
+
+    <!-- Chat Window -->
+    <div class="chat-panel">
+
+        <header class="chat-header">
+            <h1>Research Assistant</h1>
+        </header>
+
+        <main id="chat" class="chat-messages"></main>
+
+        <form id="chat-form" class="chat-input-box">
+            <textarea id="user-input" placeholder="Type your message..." rows="1" autocomplete="off"></textarea>
+            <button type="submit" id="send-btn">➤</button>
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
