@@ -1,7 +1,3 @@
-Here is a clean, professional, GitHub-ready **README.md** for your repository.
-It fully explains the system, tools, architecture, instructions, API details, and deployment steps.
-
----
 
 # **AI Research Assistant – Agentic Academic Research System (FastAPI + LLaMA 3.2)**
 
